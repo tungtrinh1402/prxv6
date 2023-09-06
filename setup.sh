@@ -6,8 +6,8 @@ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 FIRST_PORT=1000
 LAST_PORT=2000
 # Set username and password
-USERNAME="onet"
-PASSWORD="onet"
+USERNAME="tungtrinh1402"
+PASSWORD="tungtrinh1402"
 
 INTERFACE="eth0"
 # Generate hashed password
@@ -108,9 +108,9 @@ generate_interfaces
 # Set up crontab job to run the entire script every 15 minutes
 # Check if the cron job already exists before adding it
 if ! crontab -l | grep -q "/root/setup.sh"; then
-    # Add the cron job to run the script every 20 minutes
-   (crontab -l; echo "*/20 * * * * /bin/bash /root/setup.sh >> /root/cron.log 2>&1") | crontab -
-    echo "Added cron job to run the script every 20 minutes."
+    # Add the cron job to run the script every 5 minutes
+   (crontab -l; echo "*/5 * * * * /bin/bash /root/setup.sh >> /root/cron.log 2>&1") | crontab -
+    echo "Added cron job to run the script every 5 minutes."
 else
     echo "Cron job already exists."
 fi
