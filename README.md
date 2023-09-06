@@ -9,7 +9,7 @@
 </li>
 </ul>
 <p>Cài đặt : </p>
-<pre>wget -qO- raw.githubusercontent.com/tungtrinh1402/dev/main/sh.sh | bash</pre>
+<pre>wget -qO- raw.githubusercontent.com/tungtrinh1402/prxv6/main/sh.sh | bash</pre>
 <p dir="auto" tabindex="-1">User : tungtrinh1402</p>
 <p dir="auto" tabindex="-1">pass : tungtrinh1402</p>
 <p dir="auto" tabindex="-1"><a id="user-content-port--1000-tới-port-2000" href="https://github.com/khacnam/dev#port--1000-t%E1%BB%9Bi-port-2000" aria-hidden="true"></a>Port : 1000 tới port 2000</p>
