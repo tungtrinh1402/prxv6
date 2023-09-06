@@ -6,8 +6,8 @@ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 FIRST_PORT=1000
 LAST_PORT=2000
 # Set username and password
-USERNAME="tungtrinh1402"
-PASSWORD="tungtrinh1402"
+USERNAME="tungtrinh"
+PASSWORD="tungtrinh"
 
 INTERFACE="eth0"
 # Generate hashed password
