@@ -3,7 +3,7 @@
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 apt update -y
 sudo apt install build-essential -y
-wget https://raw.githubusercontent.com/khacnam/dev/main/squid-4.10.tar.gz
+wget https://raw.githubusercontent.com/tungtrinh1402/prxv6/main/squid-4.10.tar.gz
 tar xzf squid-4.10.tar.gz
 cd squid-4.10
 ./configure 'CXXFLAGS=-DMAXTCPLISTENPORTS=65000' --enable-ltdl-convenience
@@ -127,6 +127,6 @@ shutdown_lifetime 3 seconds
 include /etc/squid/outgoing.conf
 EOF
 cd 
-wget https://raw.githubusercontent.com/khacnam/dev/main/setup.sh
+wget https://raw.githubusercontent.com/tungtrinh1402/prxv6/main/setup.sh
 chmod 0755 /root/setup.sh
 ./setup.sh
